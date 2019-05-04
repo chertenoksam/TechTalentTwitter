@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
 
 import org.ocpsoft.prettytime.PrettyTime;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Service;
 
 import com.tts.TechTalentTwitter.model.Tag;
@@ -20,6 +21,8 @@ import com.tts.TechTalentTwitter.model.TweetDisplay;
 import com.tts.TechTalentTwitter.model.User;
 import com.tts.TechTalentTwitter.repository.TagRepository;
 import com.tts.TechTalentTwitter.repository.TweetRepository;
+
+@SpringBootApplication
 
 @Service
 public class TweetService {
